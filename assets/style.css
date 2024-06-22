@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .main{
+      background-image: url("img/bg.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  .container {
+     background-color:  rgba(0, 0, 0, .7);
+  
+  }
+  .navbar h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 130px;
+  
+  }
+  .navbar img {
+    width: 100px;
+    margin-left: 50px;
+  }
+  .credit {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .credit img {
+    margin-top: 100px;
+    width: 200px;
+  
+  }
+  .desmon h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .report1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 100px;
+      width: 100%;
+  }
+  .report{
+      border: 1px solid rgb(255, 255, 255);
+      margin-top: 30px;
+      padding: 20px;
+      width: 70%;
+  }
+  .report:hover{
+      cursor: pointer;
+      /* margin-top: -5px; */
+  }
+  .report h2{
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+  }
+  .report p{
+      color: rgb(163, 159, 159);
+      font-size: 20px;
+      margin-top: 5px;
+  }
+  .contact{
+      background-color: rgba(18, 18, 233, 0.);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-evenly;
+      background-image: url('img/gradient.png');
+      background-blend-mode: color-burn;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 50px 10px;
+  }
+  .contact .first{
+      width: 45%;
+      text-align: center;
+  
+  }
+  .contact .first h1{
+      font-weight: 700;
+  }
+  .agency{
+      width: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: white;
+      padding: 10px;
+  }
+  .contact .second{
+  }
+  .agency img{
+      width: 200px;
+      margin-top: 20px;
+  
+  }
+  .element {
+      color: #000000;
+      background-color: #c415150d;
+      border: 0px solid #DA1C1CFF;
+      border-radius: 10px;
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: 400;
+      text-align: left;
+      padding: 10px 20px 10px 20px;
+      box-shadow: 0px 0px 0px 0px #FFFFFF;
+      line-height: 1.5;
+  }
+  .father , .learn ,.produce{
+      color: #d1d0d0;
+  }
+  form{
+      margin-top: 25px;
+      /* width: 80%; */
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-weight: 500;
+      font-size: 25px;
+  }
+  input{
+      margin-bottom: 10px;
+      width: 80%;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: 1px solid gray;
+      font-size: 20px;
+      margin-top: 15px;
+  }
+  input:focus {
+      outline: none;  
+  }
+  
+  #br{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #br input{
+      /* margin-left: 60px; */
+      cursor: pointer;
+      padding: 10px 5px;
+      border-radius: 5px;
+  }
+  
+  #figure{
+      margin-top: 30px;
+  }
+  #figure strong{
+      font-size: 30px;
+      font-weight: 900;
+      margin-top: 105px;
+      margin-bottom: 20px;
+  }
+  .first{
+      color: #cbd5e0;
+      padding: 5px 10px;
+  }
+  .first h1{
+      margin-bottom: 50px;
+      font-weight: 500;
+      font-size: 40px;
+  }
+  .first .h2{
+      font-size: 28px;
+      font-weight: 600;
+  }
+  .first p{
+      font-size: 25px;
+      /* color:; */
+  }
+  .me{
+      margin-top: 20px;
+      font-size: 23px;
+      color: white;
+  }
+  .first #dawr{
+      font-size: 23px;
+      color: white;
+      font-weight: 800;
+  }
+  .outer{
+      display: flex;
+      background-color: #000000;
+      padding: 100px 5px;
+      color: white;
+      text-align: center;
+  }
+  #image {
+      width: 50%;
+      text-align: center;
+      justify-content: center;
+  }
+  #slot{
+      width: 45%;
+      line-height: 1.7;
+      text-align: center;
+      align-items: center;
+  
+  }
+  #minute{
+      text-align: center;align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-top: 30px;
+  }
+  #mnt{
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+  }
+ 
+  .count{
+      color:#08f864;
+      font-size: 40px;
+  
+  }
+  #image img{
+      height: 100%;
+      width: 80%;
+      position: relative;
+  }
+  .slots h1{
+      color: #FAF089 !important;
+      font-weight: 700;
+      font-size: 45px;
+  }
+  .wlist h2{
+      color: #F51C52;
+      font-size: 30px;
+      font-weight: 500;
+  }
+  .jackpot{
+      /* font-size: 28px; */
+      color: #FFFFFF;
+  }
+  .jackpot h1{
+      font-size: 35px;
+      font-weight: 100;
+      color: #FFFFFF;
+  }
+  #Gift{
+      line-height: 1;
+  }
+  #Gift h2{
+      color: #F51C52;
+      font-size: 30px;
+      font-weight: 400;
+  }
+  #minute{
+      display: flex;
+  }
+  #bk{
+  background-color: #000;
+  color: white;
+  
+  }
+  #book{
+      padding: 20px 20px;
+      margin-top: 30px;
+      font-weight: 400;
+      font-size: 25px;
+      background: #000;
+      color: white;
+      border: 2px solid rgb(248, 248, 248);
+  }
+  .a img{
+      width: 250px;
+  }
+  .below h2{
+      margin-top: 5px;
+      font-size: 25px;
+  }
+  .below p{
+      font-size: 30px;
+  }
+  
+  #m img{
+      color: white;
+  }
+  #step{
+      color: #faf089;
+      line-height: 2;
+  }
+  #step h2{
+      font-weight: 800;
+      font-size: 30px;
+  }
+  .income{
+      font-size: 800;
+      font-size: 30px;
+  }
+  .marketing{
+      font-size: 800;
+      font-size: 30px;
+  }
+  #djs{
+      width: 100%;
+      background-color: #f2f2f2;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .js{
+      display: flex;
+      justify-content: space-around;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-around;
+  }
+  #firstjs{
+      width: 42%;
+  }
+  #secondjs{
+      width: 42%;
+      text-align: center;
+  }
+  
+  #analysis,#Certification,#sulution ,#Financial,#Heirloom ,#Wealth ,#WealthMax , #Reprogramming{
+      background: #000;
+      border-radius: 15px;
+      color: white;
+      margin-top: 20px;
+      border: 1px solid #000;
+      line-height: 1.5;
+      width: 100%;
+      overflow: hidden;
+      text-align: left;
+  }
+  #analysis,#Heirloom{
+      margin-top: 100px;
+      
+  }
+  .no , .dn, .cdn , .ddn , .edn , .fdn , .gdn , .hdn{
+      opacity: 0;
+      height: 0;
+      background: #000;
+      color: white;
+      text-align: center;
+      justify-content: center;
+  }
+  #a, #b, #c, #d, #e, #f , #g, #h, #i, #j{
+      cursor: pointer;
+      border-radius: 15px;
+      padding: 15px 5px;
+      position: relative;
+  }
+  .no p{
+      border-radius: 60px;  
+  }
+  .displaye{
+      opacity: 1;
+      height: auto;
+      transition: all 2s ease-in-out;
+      font-weight: 500;
+      font-size: larger;
+      background-color: #000;
+  }
+  
+  
+  .shadow{
+      box-shadow:5px 5px 15px rgba(0, 0, 0, 0.7);
+      transition: all .5s ease-in;
+      
+  }
+  .msg{
+      margin: 30px 0px;
+  }
+  
+  .APPOIN{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      margin-bottom: 10px;
+  
+  }
+  .BOOK{
+      color: white;
+      text-align: center;
+      padding: 10px 5px;
+      width: 100%;
+  }
+  .APPOINTMENT{    /* change*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      border-radius: 15px;
+      background-color: black;
+      margin-bottom: 40px;
+      line-height: 1.5;
+      padding: 10px 0px;
+  
+  }
+  .APPOINTMENT:hover{
+      box-shadow:5px 5px 15px rgba(0, 0, 0, .6);
+      cursor: pointer;
+      transition: all .5s linear;
+  
+  }
+  .main-heading-button{
+      font-size: 20px;
+  }
+  .line{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 5px;
+      /* background: #000; */
+  }
+  .hr{
+      width: 70%;
+      height: 5px;
+      background-color: #d1d0d0;
+      border-radius: 5px;
+  
+  }
+  .Preview{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px;
+  }
+  .Preview button{
+      background: #000;
+      color: white;
+      padding: 10px 30px;
+      font-size: 20px;
+      border-radius: 10px;
+      font-weight: 400;
+      /* width: 100px; */
+  }
+  button:hover{
+      cursor: pointer;
+  
+  }
+  #footer{
+      padding: 30px 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: white;
+      background-color: #000000;
+  }
+  .footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+  
+  }
+  .flex{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .flex img{
+      width: 30px;
+      margin-right: 10px;
+  }
+  .end{
+      text-align: center;
+      margin-top: 60px;
+  }
+  .end img{
+      width: 130px;
+  }
+  .end h2{
+      font-size: 20px;
+      margin-top: 20px;
+  }
+  body{
+      overflow-x: hidden;
+  }
+  @media (max-width: 830px) {
+      .outer{
+          flex-direction: column;
+          overflow: hidden;
+      }
+      .contact .first{
+          width: 100%;
+          text-align: center;
+      }
+      .agency{
+          width: 100%;
+      }
+      .contact{
+          flex-direction: column;
+      }
+      .outer{
+          /* text-align: center; */
+          /* justify-content: center; */
+          width: 100%;
+          align-items: center;
+      }
+      #slot{
+          width: 90%;
+      }
+      .report1{
+          width: 100%;
+          text-align: center;
+          align-items: center;
+      }
+      .report{
+          border: 1px solid rgb(255, 255, 255);
+          margin-top: 30px;
+          padding: 20px;
+          text-align: center;
+          align-items: center;
+          width: 90%;
+      }
+      .report h2{
+          color: white;
+          font-size: 20px;
+          font-weight: 400;
+      }
+      .report p{
+          color: rgb(163, 159, 159);
+          font-size: 20px;
+          margin-top: 5px;
+      }
+    
+  }
+  @media (max-width: 700px) {
+      .navbar img{
+          width: 100px;
+          margin-left: 5px;
+      }
+      .navbar h2{
+          font-size: 15px;
+      } 
+      .contact{
+          flex-direction: column;
+      }
+      .first{
+          width: 100%;
+      }
+      .agency{
+          width: 100%;
+      }
+      .outer{
+          flex-direction: column;
+          overflow: hidden;
+      }
+      #image ,#slot{
+          width: 100%;
+      }
+      .image{
+          width: 100%;
+      }
+      h1 h2 h3 h4 h5 h6{
+          font-size: 10px;
+          color: aqua;
+      }
+      .container{
+          padding: 0;
+          margin: 0;overflow: hidden;
+          width: 100%;
+      }
+      #firstjs{
+          width: 80%;
+      }
+      #secondjs{
+          width: 80%;
+          text-align: center;
+      }
+      .footer{
+          flex-direction: column;
+      }
+      .contact .first{
+          width: 100%;
+          text-align: center;
+      
+      }
+      #firstjs , #secondjs{
+          flex-direction: column;
+      }
+      .js{
+          flex-direction: column;
+      }
+      .credit{
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+      }
+      #a, #b, #c, #d, #e, #f, #g, #h, #i{
+          font-size: 20px;
+      }
+  }
